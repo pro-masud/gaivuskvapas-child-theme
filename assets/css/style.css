@@ -1,0 +1,515 @@
+/* Google Fonts Link Here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+ul,ol{
+    list-style: none;
+    padding: 0px;
+}
+body{
+    background-color: #333;
+}
+input,
+textarea {
+  border: 0px;
+  outline: 0px;
+}
+button {
+    text-decoration: none;
+    display: inline-block;
+    outline: 0px;
+    border: 0px;
+    cursor: pointer;
+    background-color: transparent;
+    margin: 0 3px;
+}
+/**************************************
+* GV Header Top Styling Start
+***************************************/
+.gv-header-top{
+    background-color:rgba(1, 135, 202, 1);
+}
+.gv-header-top .gv-header-text{
+    padding: 8px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gv-header-top .gv-header-text p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15.2px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.30399999022483826px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+/**************************************
+* GV Header Styling Start
+***************************************/
+header {
+    background: rgba(248, 248, 248, 1);
+}
+header .gv-header-warp {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 0;
+}
+header .gv-header-warp .gv-logo{
+    width: 18%;
+}
+header .gv-header-warp .gv-logo a img{
+    width: 100%;
+    height: 100%;
+}
+header .gv-header-warp .gv-search{
+    width: 32%;
+}
+header .gv-header-warp .gv-search form{
+    width: 100%;
+    position: relative;
+}
+header .gv-header-warp .gv-search form .gv-s-icon {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+}
+header .gv-header-warp .gv-search form .gv-s-icon i{
+    font-size: 20px;
+    color: rgba(3, 46, 114, 1);
+}
+header .gv-header-warp .gv-search form input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(227, 217, 217, 1);
+    padding: 12px 15px 12px 45px;
+}
+header .gv-header-warp .gv-search form input::placeholder{
+    font-family: Montserrat;
+    font-size: 15.2px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.30399999022483826px;
+    color: rgba(3, 46, 114, 1);
+
+}
+header .gv-header-warp .gv-card{
+    width: 42%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .gv-header-warp .gv-card .gv-info a{
+    display: block;
+    color: rgba(3, 46, 114, 1);
+    margin: 5px 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+
+}
+header .gv-header-warp .gv-card .gv-info a svg{
+    margin-right: 5px;
+    font-size: 20px;
+    color: rgba(3, 46, 114, 1);
+}
+header .gv-header-warp .gv-card-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 40px;
+}
+header .gv-header-warp .gv-card-info a{
+    display: inline-block;
+    color: rgba(3, 46, 114, 1);
+    margin: 5px 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28.8px;
+}
+header .gv-header-warp .gv-card-info a svg{
+    margin-right: 5px;
+    font-size: 20px;
+    color: rgba(3, 46, 114, 1);
+}
+header .gv-header-warp  .gv-mobile-card-info{
+    display: none;
+}
+header .gv-header-warp  .gv-mobile-card-info a svg{
+    margin-right: 5px;
+    font-size: 20px;
+    color: rgba(3, 46, 114, 1);
+}
+.gv-header-mid{
+    padding: 10px 0px;
+}
+.gv-header-bottom{
+    background-color: #fff;
+    padding: 4px 0;
+}
+.gv-header-bottom .gb-header-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gv-header-bottom .gb-header-wrap .navbar .navbar-toggler .btn:focus{
+    box-shadow: none;
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-toggler::focus{
+    outline: none;
+    box-shadow: none;
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-toggler i{ 
+    color: rgba(3, 46, 114, 1);
+    font-size: 30px;
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-nav > li{
+    margin: 0 15px;
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-nav li > a {
+    font-family: Montserrat;
+    font-size: 15.2px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.30399999022483826px;
+    color: rgba(3, 46, 114, 1);
+    padding: 20px 0;
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-nav li > .mega-menu{
+    border-radius: 0px 0px 22px 22px;
+    width: 1300px;
+    border: none;
+    opacity: 0;
+    margin: 0px;
+    transition: .5s ease-in-out;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    visibility: hidden;
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-nav > li:hover .mega-menu{
+    display: flex;
+    justify-content: space-between;
+    opacity: 1;
+    top: 40px;
+    visibility: visible;
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-nav > li a::after{
+    display: none;
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-nav > li a i{
+    transition: .4s;
+    margin-left: 5px;
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-nav > li:hover a i{
+    transform: rotate(-180deg);
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-nav li .mega-menu li:first-child a {
+    font-family: Montserrat;
+    font-size: 15.2px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.30399999022483826px;
+    color: rgba(3, 46, 114, 1);
+    padding: 20px 0;
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-nav li .mega-menu li a {
+    font-family: Montserrat;
+    font-size: 15.2px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.30399999022483826px;
+    color: rgba(3, 46, 114, 1);
+    padding: 20px 0;
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-nav li .mega-menu li a:hover{
+    text-decoration: underline;
+}
+  
+  .select-item option {
+    padding: 10px; /* Add padding for better spacing */
+    font-size: 16px; /* Adjust the font size */
+    background-color: #fff; /* Set background color */
+    color: #333; /* Set text color */
+  }
+  
+  /* Style the dropdown arrow */
+  .select-item::after {
+    content: '\25BC'; /* Unicode for down arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+
+.gv-header-bottom .gv-hb-right .gv-search form{
+    width: 100%;
+    position: relative;
+}
+.gv-header-bottom .gv-hb-right .gv-search form .gv-s-icon {
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}
+.gv-header-bottom .gv-hb-right.gv-search form .gv-s-icon i{
+    font-size: 20px;
+    color: rgba(3, 46, 114, 1);
+}
+.gv-header-bottom .gv-hb-right .gv-search form input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(227, 217, 217, 1);
+    padding: 8px 15px 8px 45px;
+}
+.gv-header-bottom .gv-hb-right .gv-search form input::placeholder{
+    font-family: Montserrat;
+    font-size: 15.2px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.30399999022483826px;
+    color: rgba(3, 46, 114, 1);
+}
+.gv-header-bottom .gv-hb-right  .gv-search{
+ display: none;
+}
+.main-menu-offcanvas .offcanvas-body nav ul.navbar-nav  > li{
+    border-bottom: 1px solid rgba(227, 217, 217, 0.3);
+    padding: 12px 0px;
+}
+.main-menu-offcanvas .offcanvas-body nav ul li a::after{
+    display: none;
+}
+.main-menu-offcanvas .offcanvas-body nav ul li a{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0.30399999022483826px;
+    color: rgba(3, 46, 114, 1);
+}
+.main-menu-offcanvas .main-menu{
+    width: 100%;
+}
+.main-menu-offcanvas .offcanvas-body nav ul li .dropdown-menu{
+   border: none;
+}
+.main-menu-offcanvas .offcanvas-body nav ul li .dropdown-menu ul{
+    margin-top: 20px;
+}
+.main-menu-offcanvas .offcanvas-body nav ul li .dropdown-menu ul:first-child{
+    margin-top: 0px;
+}
+.main-menu-offcanvas .offcanvas-body nav ul li .dropdown-menu ul li:first-child a{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.30399999022483826px;
+    color: rgba(3, 46, 114, 1);
+}
+.main-menu-offcanvas .offcanvas-body nav ul li .dropdown-menu ul li a{
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0.30399999022483826px;
+        color: rgba(3, 46, 114, 1);
+}
+.main-menu-offcanvas .gv-info a{
+    display: block;
+    color: rgba(154, 154, 154, 1);
+    margin: 5px 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+
+}
+.main-menu-offcanvas .gv-info a svg{
+    margin-right: 5px;
+    font-size: 20px;
+    color: rgba(154, 154, 154, 1)
+}
+.main-menu-offcanvas .offcanvas-header button i{
+    font-size: 40px;
+    color: #fff;
+}
+
+
+@keyframes slideDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideUp {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Apply animation to the submenu */
+  .dropdown-menu.sub-menu {
+    animation: slideDown 0.5s ease forwards;
+  }
+  
+  .dropdown-menu.sub-menu.hide {
+    animation: slideUp 0.5s ease forwards;
+  }
+  
+
+  /* Dropdown menu css */
+  .gv-dropdown-container {
+	 position: relative;
+	 max-width: 240px;
+}
+ .gv-dropdown-container .gv-dropdown-toggle {
+    font-family: Montserrat;
+    font-size: 15.2px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0.30399999022483826px;
+    color: rgba(3, 46, 114, 1);
+	 cursor: pointer;
+	 position: relative;
+	 transition: all ease-in-out 0.3s;
+     padding: 0px 20px;
+     text-transform: uppercase;
+}
+.gv-choose-item .gv-dropdown-container .gv-dropdown-toggle i{
+    transition: .4s;
+    margin-left: 10px;
+}
+.gv-choose-item .gv-dropdown-container::hover .gv-dropdown-toggle{
+    rotate: -180deg;
+}
+ .gv-dropdown-container .gv-dropdown-toggle label {
+	 cursor: pointer;
+	 width: 100%;
+}
+ .gv-dropdown-container .gv-dropdown-toggle:hover, .gv-dropdown-container .gv-dropdown-toggle:active, .gv-dropdown-container .gv-dropdown-toggle:focus {
+	 background-color: transparent;
+     color: rgba(3, 46, 114, 1);
+}
+
+ .gv-dropdown-container .gv-dropdown-menu {
+	 width: 100%;
+	 position: absolute;
+	 left: 0;
+	 top: 70px;
+	 opacity: 0;
+	 background-color: #fff ;
+	 z-index: 10;
+     border-radius: 2px 2px 22px 22px;
+     transition: .5s;
+     visibility: hidden;
+}
+ .gv-dropdown-container .gv-dropdown-menu ul {
+	 list-style: none;
+	 padding: 0;
+	 margin: 0;
+	 overflow: hidden;
+	 border-radius: 10px;
+	 z-index: 10;
+     
+}
+ .gv-dropdown-container .gv-dropdown-menu a {
+    font-family: Montserrat;
+    font-size: 15.2px;
+    font-weight: 500;
+    line-height: 30px;
+    transition: all ease-in-out 0.3s;
+    text-align: center;
+    display: block;
+    color: rgba(3, 46, 114, 1);
+    text-transform: capitalize;
+}
+ .gv-dropdown-container .gv-dropdown-menu a:hover, .gv-dropdown-container .gv-dropdown-menu a:active, .gv-dropdown-container .gv-dropdown-menu a:focus {
+	 background-color: transparent;
+	 color: rgba(3, 46, 114, 1);
+}
+.gv-dropdown-container .gv-dropdown-menu.dropdown-active{
+    top: 45px;
+}
+ .gv-dropdown-menu, .gv-dropdown-toggle {
+	 position: relative;
+}
+ 
+ .gv-dropdown-menu {
+	 z-index: 10;
+	 position: relative;
+}
+ .gv-dropdown-menu::before {
+	 z-index: -1;
+	 transform: rotate(-135deg);
+	 top: 0;
+}
+ .dropdown-open .gv-dropdown-menu.dropdown-active {
+	opacity: 1;
+    visibility: visible;
+}
+ .gv-dropdown-container.dropdown-open .gv-dropdown-toggle {
+	 background-color: transparent;
+	 color: rgba(3, 46, 114, 1);
+}
+.gv-choose-item{
+    width: 180px;
+}
+.gv-choose-item .gv-dropdown-container .gv-dropdown-toggle::hover i{
+    rotate: -180deg;
+}
+.gv-choose-item .gv-dropdown-container.dropdown-open .gv-dropdown-toggle i{
+    rotate: -180deg;
+}
+.gv-dropdown-toggle::after{
+    display: none;
+}
+.gv-dropdown-container::hover{
+    display: block;
+}
+.main-menu-offcanvas .offcanvas-body nav ul li a i{
+    margin-left: 10px;
+}
+.main-menu-offcanvas .dropdown-toggle i{
+    transition: .5s;
+}
+.main-menu-offcanvas .dropdown-toggle.show i{
+    rotate: -180deg;
+}
+.gv-header-bottom .gb-header-wrap .gv-hb-right .gv-choose-item .gv-dropdown-container .gv-dropdown-menu:hover{
+    opacity: 1;
+    visibility: visible;
+}
+.main-menu-offcanvas{
+    display: none;
+}

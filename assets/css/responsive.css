@@ -1,0 +1,244 @@
+@media screen and (max-width: 1440px) {
+    header .gv-header-warp .gv-card .gv-info a {
+        font-size: 14px;
+    }
+    header .gv-header-warp .gv-card .gv-info a svg{
+        font-size: 16px;
+    }
+    header .gv-header-warp .gv-card-info a svg{
+        font-size: 16px;
+    }
+    header .gv-header-warp .gv-card-info a {
+        font-size: 14px;
+    }   
+    .gv-header-bottom .gb-header-wrap nav .navbar-nav li > .mega-menu{
+        max-width: 1296px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .gv-header-bottom .gb-header-wrap nav .navbar-nav li > .mega-menu{
+        width: 1120px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .gv-header-bottom .gb-header-wrap nav .navbar-nav li > .mega-menu{
+        width: 937px;
+    }
+    .gv-header-bottom .gb-header-wrap .gv-hb-left .navbar .mega-men, .gv-header-bottom .gb-header-wrap nav .navbar-nav li:hover > .mega-men{
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    header .gv-header-warp .gv-logo {
+        width: 22%;
+    }
+    header .gv-header-warp .gv-card .gv-info a {
+        font-size: 14px;
+    }
+    header .gv-header-warp .gv-card .gv-info a svg{
+        font-size: 18px;
+    }
+    header .gv-header-warp .gv-card-info {
+        gap: 0 15px;
+    }
+    header .gv-header-warp .gv-card-info a {
+        font-size: 14px;
+    }
+    header .gv-header-warp .gv-card-info a svg{
+        font-size: 18px;
+    }
+    header .gv-header-warp .gv-search form input {
+        padding: 10px 15px 10px 45px;
+    }
+    .gv-header-bottom .gb-header-wrap nav .navbar-nav li > a {
+        font-size: 14px;
+    }
+    .gv-header-bottom .gb-header-wrap .gv-hb-left .navbar .mega-men {
+        display: flex;
+        padding: 7px;
+    }
+    .gv-header-bottom .gb-header-wrap nav .navbar-nav li > .mega-menu{
+        width: 937px;
+    }
+    .gv-header-bottom .gb-header-wrap nav .navbar-nav > li:hover ul li a.dropdown-item{
+        font-size: 14px;
+    }
+    .main-menu-offcanvas{
+        display: none;
+    }
+}
+@media screen and (max-width: 991px) {
+    header .gv-header-warp{
+        gap: 10px;
+    }
+    header .gv-header-warp .gv-card .gv-info a {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    header .gv-header-warp .gv-card .gv-info a svg{
+        font-size: 12px;
+    }
+    header .gv-header-warp .gv-card-info a svg{
+        font-size: 12px;
+    }
+    header .gv-header-warp .gv-card-info a {
+        font-size: 10px;
+    }
+    .gv-header-bottom .gb-header-wrap nav .navbar-nav li > a {
+        font-size: 12px;
+    }
+    .gv-header-bottom .gv-hb-right .gv-search form input::placeholder{
+        font-size: 14px;
+    }
+    header .gv-header-warp .gv-card .gv-info a svg{
+        margin-right: 2px;
+    }
+    header .gv-header-warp .gv-card-info {
+        gap: 0 5px;
+    }
+    .gv-header-bottom .menu-menu{
+        display: none;
+    }
+    .main-menu-offcanvas .offcanvas-header button{
+        position: absolute;
+        top: 14px;
+        right: -50px;
+    }
+    .main-menu-offcanvas .offcanvas-body nav ul li .mega-men{
+        margin-bottom: 20px;
+        transition: .4s;
+    }
+    .main-menu-offcanvas .offcanvas-body nav ul li .mega-men{
+        margin-bottom: 0px;
+    }
+    .main-menu-offcanvas{
+        display: block;
+    }
+    .main-menu-offcanvas .offcanvas-header button{
+        position: absolute;
+        top: 14px;
+        right: -70px;
+    }
+}
+@media screen and (max-width: 768px) {
+    header .gv-header-warp .gv-card .gv-info{
+        display: none;
+    }
+    .gv-header-top .gv-header-text p {
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 500;
+    }
+    header .gv-header-warp .gv-logo {
+        width: 40%;
+    }
+    header .gv-header-warp .gv-search{
+        display: none;
+    }
+    header .gv-header-warp .gv-card-info{
+        display: none;
+    }
+    header .gv-header-warp .gv-mobile-card-info {
+        display: flex;
+        gap: 20px;
+    }
+    header .gv-header-warp .gv-mobile-card-info a i{
+        font-size: 24px;
+    }
+    .gv-header-bottom{
+        background-color: rgba(248, 248, 248, 1);
+    }
+    .gv-header-bottom .menu-menu{
+        display: none;
+    }
+    .gv-header-bottom .gv-hb-right{
+        width: 100%;
+    }
+    .gv-header-bottom .gv-hb-right  .gv-search{
+        display: block;
+       }
+    .gv-header-bottom .gv-hb-right .gv-choose-item{
+        display: none;
+    }
+    header .gv-header-warp .gv-card {
+        justify-content: end;
+    }
+    .gv-header-bottom .gb-header-wrap nav .navbar-nav li > a {
+        font-size: 10px;
+    }
+    .menu-menu{
+        width: 100%;
+    }
+    .main-menu-offcanvas .offcanvas-header button{
+        right: -70px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .gv-header-bottom .gv-hb-right .gv-search form input::placeholder{
+        font-size: 12px;
+    }
+    header .gv-header-warp{
+        padding: 0px;
+    }
+    .offcanvas-start{
+        width: 350px;
+    }
+    .gv-header-bottom .gb-header-wrap .navbar, .gv-header-bottom .gb-header-wrap .navbar .navbar-toggler{
+        padding: 0px;
+    }
+    .gv-header-bottom .gv-hb-right .gv-search form .gv-s-icon {
+        position: absolute;
+        top: 12px;
+        left: 14px;
+    }
+    .gv-header-bottom .gv-hb-right .gv-search form input {
+        padding: 0px 15px 0px 45px;
+    }
+    .main-menu-offcanvas .gv-info a {
+        font-size: 16px;
+        line-height: 25.8px;
+    }
+    .gv-header-bottom .gv-hb-right .gv-search form input{
+        margin-bottom: 0px !important;
+    }
+}
+@media screen and (max-width: 375px) {
+    .gv-header-bottom .gv-hb-right .gv-search form input::placeholder{
+        font-size: 10px;
+        line-height: 15px;
+        vertical-align: middle;
+    }
+    .offcanvas-start {
+        width: 300px;
+    }
+    header .gv-header-warp{
+        padding-bottom: 0px;
+    }
+    .gv-header-bottom .gv-hb-right .gv-search form input {
+        padding: 0px 15px 3px 45px;
+        height: unset;
+    }
+    .main-menu-offcanvas .offcanvas-header button{
+        right: -65px;
+    }
+    .gv-header-bottom .gv-hb-right .gv-search form .gv-s-icon {
+        position: absolute;
+        top: 3px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .gv-header-top .gv-header-text p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .offcanvas-start {
+        width: 260px;
+    }
+    .main-menu-offcanvas .offcanvas-header button{
+        right: -60px;
+    }
+    .gv-header-bottom .gv-hb-right .gv-search form .gv-s-icon {
+        position: absolute;
+        top: 3px;
+    }
+}
