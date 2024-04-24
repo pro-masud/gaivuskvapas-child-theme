@@ -1032,12 +1032,72 @@ function single_product_variable_customization() {
 
 function gaivuskvapas_front_assets_css_js(){
 	wp_enqueue_style('gv-font-awesome', get_theme_file_uri("/assets/css/all.css"));
-	wp_enqueue_style('gv-bootstrap', get_theme_file_uri("/assets/css/bootstrap.min.css"));
-	wp_enqueue_style('gv-main-css', get_theme_file_uri("/assets/css/style.css"));
-	wp_enqueue_style('gv-responsive-css', get_theme_file_uri("/assets/css/responsive.css"));
+	wp_register_style('gv-bootstrap', get_theme_file_uri("/assets/css/bootstrap.min.css"));
+	wp_register_style('gv-main-css', get_theme_file_uri("/assets/css/style.css"));
 
 	wp_enqueue_script('gv-bootstrap-js', get_theme_file_uri("/assets/js/bootstrap.bundle.min.js"), array(), '1.0.0', true);
 	wp_enqueue_script('gv-main-js', get_theme_file_uri("/assets/js/main.js"), array(), '1.0.0', true);
 }
 
 add_action("wp_enqueue_scripts", "gaivuskvapas_front_assets_css_js");
+
+function gaivuskvapas_front_assets_css(){
+	wp_enqueue_style('gv-responsive-css', get_theme_file_uri("/assets/css/responsive.css"));
+}
+add_action("wp_enqueue_scripts", "gaivuskvapas_front_assets_css", 999);
+
+if(!function_exists('gv_customize_register')){
+	function gv_customize_register( $wp_customize ) {
+
+		$wp_customize->add_section('gv_custom_header', array(
+			'title' => __('Custom Header', 'ct-custom'),
+			'priority' => 30,
+		));
+
+		$wp_customize->add_setting('gv_delivery_info', array(
+			'default' => __('Nemokamas pristatymas visoje lietuvoje užsakymams nuo 50€'),
+			'sanitize_callback' => 'sanitize_text_field',
+		));
+
+		$wp_customize->add_control('gv_delivery_info', array(
+			'label' => __('Delivery Info', 'ct-custom'),
+			'section' => 'gv_custom_header',
+			'type' => 'text',
+		));
+		
+		$wp_customize->add_setting('gv_phone_number', array(
+			'default' => __('+370 666 29977'),
+			'sanitize_callback' => 'sanitize_text_field',
+		));
+
+		$wp_customize->add_control('gv_phone_number', array(
+			'label' => __('Phone Number', 'ct-custom'),
+			'section' => 'gv_custom_header',
+			'type' => 'text',
+		));
+
+		$wp_customize->add_setting('gv_email_address', array(
+			'default' => 'info@gaivuskvapas.lt',
+			'sanitize_callback' => 'sanitize_text_field',
+		));
+
+		$wp_customize->add_control('gv_email_address', array(
+			'label' => __('Email Address', 'ct-custom'),
+			'section' => 'gv_custom_header',
+			'type' => 'text',
+		));
+	}
+}
+add_action( 'customize_register', 'gv_customize_register' );
+
+function theme_name_register_menus() {
+    register_nav_menus( array(
+        'header-right-menu' => esc_html__( 'Header Right Menu', 'gaivuskvapas' ),
+    )
+ );
+}
+add_action( 'after_setup_theme', 'theme_name_register_menus' );
+
+function gv_header_mega_menu(){
+
+}

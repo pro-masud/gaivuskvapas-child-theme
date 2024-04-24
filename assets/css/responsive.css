@@ -125,8 +125,7 @@
         display: none;
     }
     .gv-header-top .gv-header-text p {
-        font-size: 16px;
-        line-height: 18px;
+        font-size: 14px;
         font-weight: 500;
     }
     header .gv-header-warp .gv-logo {
@@ -174,6 +173,10 @@
     }
 }
 @media screen and (max-width: 530px) {
+    .gv-header-top .gv-header-text p {
+        font-size: 12px;
+        line-height: 18px;
+    }
     .gv-header-bottom .gv-hb-right .gv-search form input::placeholder{
         font-size: 12px;
     }

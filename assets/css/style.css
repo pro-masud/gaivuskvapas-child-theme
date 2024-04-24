@@ -67,7 +67,7 @@ header .gv-header-warp {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    padding: 10px 0;
+    padding: 10px 20px;
 }
 header .gv-header-warp .gv-logo{
     width: 18%;
